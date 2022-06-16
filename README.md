@@ -37,7 +37,7 @@ the generation of realistic Uber rides for agent-based simulation.
   <img src="imgs/std_200.png" width="350" height="300" />
 </p>
 
-## HeatMap
+## Visualization using HeatMap
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalal1/UberSim/blob/master/heatmap/Trajectory_Vis.ipynb)
 
 We next present some visualization results to summarize our
@@ -50,7 +50,7 @@ the heat map using all trajectory points is too costly for Folium.
   <img src="imgs/heatmap.png" width="350" height="300"  />
 </p>
 
-## D3 vis
+## Visualization using D3
 ### [Click here for demo](https://inspiring-fox-a56ec4.netlify.app/)
 
 We also grouped rides by origin-destination (OD) zipcode areas
@@ -71,7 +71,10 @@ and the airport are two biggest ride hotspots.
 </p>
 
 
-## Via Simulation
+## Visualizing MATSim Results using Via
+https://simunto.com/via/
+
+Click on the images below to go to the YouTube videos.
 
 
 <div align="center">
