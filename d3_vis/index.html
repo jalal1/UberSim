@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flight Paths using Edge Bundling</title>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://unpkg.com/d3-delaunay@4"></script>
+    <script src="https://unpkg.com/d3-geo-voronoi@1"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+</head>
+
+<!-- <body> -->
+
+<div class="col-sm">
+    <!--add title in the center of the page-->
+    <h3 class="text-center">Uber Trips Visualization</h3>
+    <h5>Filter by number of outging trips from each Zipcode</h5>
+    <div id="slider-step"></div>
+</div>
+
+<!-- must be 960x600 to match topojson us atlas files -->
+<div style="text-align:center">
+    <svg width="1000" height="800">
+  <!-- must be in this order for drawing -->
+  <g id="basemap"></g>
+  <g id="trips"></g>
+  <g id="uberzipcodes"></g>
+  <g id="voronoi"></g>
+  <text id="tooltip" style="display: none;"></text>  
+</svg>
+</div>
+<script src="script.js"></script>
+
+
+
+
+<!-- </body> -->
+
+</html>
