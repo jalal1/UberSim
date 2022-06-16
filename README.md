@@ -32,11 +32,13 @@ we propose a new formulation to overcome this problem. The distribution combined
 the generation of realistic Uber rides for agent-based simulation.
 
 <p align="center">
-  <img src="imgs/netweight.png" width="450" height="300" />
-  <img src="imgs/std_200.png" width="450" height="300" />
+  <img src="imgs/netweight.png" width="300" height="200" />
+  <img src="imgs/std_200.png" width="300" height="200" />
 </p>
 
 ## HeatMap
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalal1/UberSim/blob/master/heatmap/Trajectory_Vis.ipynb)
+
 We next present some visualization results to summarize our
 extracted trajectories. We uniformly sampled 100,000 points from
 the trajectories after map matching, and plotted a heat map using
@@ -44,12 +46,12 @@ Python’s Folium library. Here, we sample points since plotting
 the heat map using all trajectory points is too costly for Folium.
 
 <p align="center">
-  <img src="imgs/heatmap.png" width="450" height="450"  />
+  <img src="imgs/heatmap.png" width="300" height="300"  />
 </p>
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalal1/fmm_jupyter/blob/main/Install_fast_map_matching.ipynb)
-
 ## D3 vis
+### [Click here for demo](https://inspiring-fox-a56ec4.netlify.app/)
+
 We also grouped rides by origin-destination (OD) zipcode areas
 (defined by TigerWeb6
 ) and created an outbound and an inbound
@@ -61,9 +63,6 @@ The top figure shows the outbound edges from zipcode area 35233
 (UAB) highlighted in red, and the bottom figure is when we raise
 the count-threshold to the highest level, where we can see that UAB
 and the airport are two biggest ride hotspots.
-
-### [Click here for demo](https://jalal1.github.io/projects/uber_vis)
-
 
 
 <p align="center">
