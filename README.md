@@ -1,6 +1,6 @@
 ## Realistic Urban Traffic Simulation with Ride-Hailing Services: A Revisit to Network Kernel Density Estimation
 
-## ABSTRACT
+## Abstract
 App-based ride-hailing services, such as Uber and Lyft, have become
 popular thanks to technology advancements including smartphones
 and 4G/5G network. However, little is known about to what degree
@@ -69,3 +69,18 @@ and the airport are two biggest ride hotspots.
 <p align="center">
   <img src="imgs/vis.gif" />
 </p>
+
+
+## Via Simulation
+
+
+<div align="center">
+<p align="center">Urban Traffic Simulation with Ride-Hailing Services around 6:00 PM</p>
+  <a href="https://www.youtube.com/watch?v=NGCIqhzRFo4"><img src="https://img.youtube.com/vi/NGCIqhzRFo4/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
+<br>
+
+<div align="center">
+<p align="center">Urban Traffic Simulation with Ride-Hailing Services around 9:00 PM</p>
+  <a href="https://www.youtube.com/watch?v=rmTgLQlxt3w"><img src="https://img.youtube.com/vi/rmTgLQlxt3w/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
