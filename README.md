@@ -32,8 +32,9 @@ we propose a new formulation to overcome this problem. The distribution combined
 the generation of realistic Uber rides for agent-based simulation.
 
 <p align="center">
-  <img src="imgs/netweight.png" width="300" height="200" />
-  <img src="imgs/std_200.png" width="300" height="200" />
+  <img src="imgs/netweight.png" width="350" height="300" />
+  &nbsp;&nbsp; 
+  <img src="imgs/std_200.png" width="350" height="300" />
 </p>
 
 ## HeatMap
@@ -46,7 +47,7 @@ Python’s Folium library. Here, we sample points since plotting
 the heat map using all trajectory points is too costly for Folium.
 
 <p align="center">
-  <img src="imgs/heatmap.png" width="300" height="300"  />
+  <img src="imgs/heatmap.png" width="350" height="300"  />
 </p>
 
 ## D3 vis
