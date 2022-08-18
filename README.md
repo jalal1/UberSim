@@ -37,6 +37,19 @@ the generation of realistic Uber rides for agent-based simulation.
   <img src="imgs/std_200.png" width="350" height="300" />
 </p>
 
+## Map Matching
+After obtaining all the extracted ride trajectories, we map them
+to the underlying road network obtained from OpenStreetMap, using the [FMM](https://github.com/cyang-kth/fmm)
+library for trajectory map matching. Figure below shows
+a raw trajectory extracted as a sequence of
+points plotted with a red polyline, and the map-matched trajectory
+plotted with a green line. We can see that the map-matched trajectory is along the roads and highways, which is properly recovered
+from the sparse set of raw trajectory points.
+
+<p align="center">
+  <img src="imgs/raw_matched.PNG"/>
+</p>
+
 ## Visualization using HeatMap
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jalal1/UberSim/blob/master/heatmap/Trajectory_Vis.ipynb)
 
